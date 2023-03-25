@@ -1,22 +1,12 @@
-<h1 align="center">👩🏼‍🔧 Weather Forecast App 👨🏼‍🔧</h1>
+<h1 align="center">🌞 Weather Forecast App 🌤</h1>
 
-<h2>🌞 Overview 🌤</h2>
+<h2>💻 Overview </h2>
 
-<p>Introducing my first full-stack application, designed for ease and efficiency. As a recent Bootcamp graduate in web development, I'm proud to present a user-friendly platform to manage most aspects of employee management, timesheet control, and missing items tracking.
+<p>The Current Weather Forecast project is a web application developed using ReactJS, Axios, Bootstrap, HTML, and CSS. It allows users to easily view current weather forecasts for any city around the world 🌎, using data provided by the Open Weather API.
 
-This application streamlines employee management by providing easy-to-use features that help you stay on top of your team's absenteeism, payroll, and other important details. You can easily access and manage employee data, such as personal information, job position, and weekly attendance.
+In addition to its functionality, the project boasts an elegant and user-friendly design, making for a pleasant and intuitive user experience. The interface includes features such as a city search field, elegant weather icons and essential information to keep you aware and avoid surprises throughout your day.
 
-The timesheet control system makes 📋 tracking employee worked hours, and monitoring attendance, overtime, and absences simple. This automated system ensures 🎯 accurate timesheet calculations and simplifies the gathering of employee attendance data.
-
-The missing items tracking feature enables you to manage the lack of products per day or range of date to get to know where production should focus to produce and avoid delivery delays, ensuring that the warehouse always has the right goods on hand to keep your business running smoothly 💰 and with no delays.
-
-This application has been built with security measures to protect your data. There are different user levels. The ADMINISTRATOR level can read, create, update and delete all information, while the USER level can only read and add some specific information. There is also a SUPERVISOR level which has more options than the user, but fewer than an administrator. The application utilizes 🔐 encrypted passwords and regularly back up your data to ensure that it is always safe and accessible where you are.
-
-This user-friendly interface makes your application easy to navigate, even for those with little or no technical experience. And if you ever run into any issues, I am always available to help.
-
-The employee management application provides a comprehensive solution to manage employee data, timesheet control, and inventory tracking in one easy-to-use platform. My application is designed to make your employee management processes more efficient and streamlined and accurate no matter the size of your business.
-
-📡 Stay aware of what is happening in your business wherever you are, anytime you like. </p>
+The Current Weather Forecast is a great option for anyone seeking accurate and reliable real-time weather information. The project is easy to use and easily integrated with other web systems and applications. </p>
 
 <h2>🛰 Used Technologies (back & front-end)</h2>
 <ul>
@@ -28,14 +18,12 @@ The employee management application provides a comprehensive solution to manage 
   <li>CSS</li>
 </ul>
 
-<h2>🚀 Video Presentation </h2>
+<h2>🖥 Video Presentation </h2>
 
 <div align='center'>
-  <p>Watch below the short presentation of the Small Companies Management System.</p>
+  <p>Watch below the short presentation of the Current Weather Forecast app.</p>
   <img width="500" alt="Login and Create New Employee" src="https://user-images.githubusercontent.com/111170704/225978327-cfd93b5d-1ff6-43b6-9e80-fa0dcb80b0e0.mov">
 </div>
-<br></br>
-<p>You can see the application running by clicking on this link <a href="https://drive.google.com/file/d/1I4oUdm4wjMVhRnqLQRLG7l2g1ttBklq_/view?usp=sharing" target="_blank">Small Business Management System</a>.</p>
 <br></br>
 
 
