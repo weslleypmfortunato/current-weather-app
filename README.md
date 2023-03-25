@@ -22,7 +22,7 @@ The Current Weather Forecast is a great option for anyone seeking accurate and r
 
 <div align='center'>
   <p>Watch below the short presentation of the Current Weather Forecast app.</p>
-  <img width="500" alt="Login and Create New Employee" src="https://user-images.githubusercontent.com/111170704/225978327-cfd93b5d-1ff6-43b6-9e80-fa0dcb80b0e0.mov">
+  <img width="500" alt="Current Weather Forecast App" src="https://user-images.githubusercontent.com/111170704/227728361-772197ca-1abc-4d44-a6ed-af9ef7d5c681.mov">
 </div>
 <br></br>
 
