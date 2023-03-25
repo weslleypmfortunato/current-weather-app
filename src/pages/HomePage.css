@@ -262,7 +262,7 @@ body {
   text-align: right;
   font-size: 1rem;
   color: var(--text_dark);
-  margin-top: 40px;
+  margin: 40px 0 16px 0;
 }
 
 .page-footer span {
