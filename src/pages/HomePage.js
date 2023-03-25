@@ -44,7 +44,7 @@ const HomePage = () => {
       setErrorMsg("")
     })
     .catch(() => {
-      setErrorMsg("Type a valid city name")
+      setErrorMsg("Type a valid city name 😉")
     })
 }
 
