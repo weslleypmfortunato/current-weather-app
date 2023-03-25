@@ -8,7 +8,7 @@ In addition to its functionality, the project boasts an elegant and user-friendl
 
 The Current Weather Forecast is a great option for anyone seeking accurate and reliable real-time weather information. The project is easy to use and easily integrated with other web systems and applications. </p>
 
-<h2>🛰 Used Technologies (back & front-end)</h2>
+<h2>🛰 Used Technologies</h2>
 <ul>
   <li>ReactJS</li>
   <li>Axios</li>
