@@ -1,19 +1,16 @@
 :root {
-  --bg_main: #0a1f44;
   --text_light: #fff;
   --text_med: #53627c;
-  --text_dark: #1e2432;
-  --red: #ff1e42;
-  --darkred: #c3112d;
+  --text_dark: #0a1f44;
   --orange: #ff8c00;
 }
 
 .HomePage {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 a {
@@ -126,6 +123,10 @@ body {
   height: 40px;
   padding: 5px 5px 10px;
   border-bottom: 1px solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 300px;
+  margin-right: 16px;
 }
 
 .top-banner form input::placeholder {
@@ -142,7 +143,7 @@ body {
 }
 
 .ajax-section {
-  margin: 70px 0 20px;
+  margin: 50px 0 20px;
 }
 
 .ajax-section .cities {

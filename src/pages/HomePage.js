@@ -2,26 +2,25 @@ import './HomePage.css'
 import axios from 'axios'
 import { useState } from 'react'
 
-const apiKey = "9f049588121d9ab5edba6bc86d738feb";
+const apiKey = "9f049588121d9ab5edba6bc86d738feb"
 
 const HomePage = () => {
-  const [inputVal, setInputVal] = useState("");
-  const [cities, setCities] = useState([]);
-  const [errorMsg, setErrorMsg] = useState("");
+  const [inputVal, setInputVal] = useState("")
+  const [cities, setCities] = useState([])
+  const [errorMsg, setErrorMsg] = useState("")
 
   const handleSubmit = e => {
-  e.preventDefault();
+  e.preventDefault()
 
   if (!inputVal) {
-    setErrorMsg("Please enter a city name");
+    setErrorMsg("Please enter a city name")
     return;
   }
 
   axios.get(`${process.env.REACT_APP_API_URL}/weather?q=${inputVal}&appid=${apiKey}&units=metric`)
     .then(response => {
-      const { main, name, sys, weather } = response.data;
-      console.log("AQUI ==> ", response.data)
-      const icon = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0]["icon"]}.svg`;
+      const { main, name, sys, weather } = response.data
+      const icon = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0]["icon"]}.svg`
 
       const newCity = {
         name,
@@ -34,18 +33,24 @@ const HomePage = () => {
         icon
       };
 
-      setCities(prevCities => [...prevCities, newCity]);
-      setInputVal("");
-      setErrorMsg("");
+      const cityExists = cities.some(city => city.name === newCity.name)
+
+      if (cityExists) {
+        return setErrorMsg(`${newCity.name} is already added 😉`)
+      }
+
+      setCities(prevCities => [...prevCities, newCity])
+      setInputVal("")
+      setErrorMsg("")
     })
     .catch(() => {
-      setErrorMsg("Type a valid city name");
-    });
-};
+      setErrorMsg("Type a valid city name")
+    })
+}
 
   const handleInputChange = e => {
-    setInputVal(e.target.value);
-  };
+    setInputVal(e.target.value)
+  }
 
   return (
     <div className='HomePage'>
@@ -64,7 +69,7 @@ const HomePage = () => {
             <button 
               type="submit" 
               className="btn btn-info">
-              SEARCH
+              CHECK WEATHER
             </button>
             <span className="msg">{errorMsg}</span>
           </form>
@@ -102,7 +107,7 @@ const HomePage = () => {
         </div>
       </footer>
     </div>
-  );
+  )
 }
 
  
